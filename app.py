@@ -2,6 +2,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/alfagrad")
+@app.route("/alfagrad")
 def hello():
     one_tit = 'Строительство заборов'
     zaboru = 'заборы'
